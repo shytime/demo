@@ -44,6 +44,8 @@ git log 历史版本消息
 
 cat 进入文件
 
+cd .. 进入上一级
+
 vim 编辑文件
 
 git remote add origin http://github.com/shytime/demo
@@ -85,6 +87,8 @@ git config --global user.email '邮箱‘
 list -a 查看隐藏目录
 
 vim git config 编辑配置文件
+
+
 
 ## Git远程推送
 
