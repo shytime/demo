@@ -48,7 +48,7 @@ cd .. 进入上一级
 
 vim 编辑文件
 
-git remote add origin http://github.com/shytime/demo
+git remote add origin http://github.com/shytime/demo 连接远程仓库
 
 vim 编辑器
 
