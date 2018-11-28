@@ -102,7 +102,7 @@ git clone http://github.com/
 
 git commit -a -m '修改了后的文件'
 
-
+git pull origin master 把远程仓库推到本地仓库 
 
 
 
