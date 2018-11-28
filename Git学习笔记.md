@@ -98,6 +98,14 @@ git push origin master 把本地仓库推送到github
 
 git add . 把所有文件提交到暂存区
 
+git clone http://github.com/
+
+git commit -a -m '修改了后的文件'
+
+
+
+
+
 
 
 注意事项：首先 git add 提交上暂存区
@@ -105,4 +113,10 @@ git add . 把所有文件提交到暂存区
 再 git commit 提交上本地仓库
 
 最后 git push 推上github
+
+
+
+
+
+
 
