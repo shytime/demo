@@ -54,6 +54,12 @@ URL链接
 ==122==
 
 [暇谈网](http://shytime.com)
+
+内部链接 其他文档
+
+内部连接 本文档其他部分 [代码块demo](Typora学习笔记.md#表格)
+
+
 $$
 a^2+\frac{a}{\sqrt{b+121}}=c （1）
 $$
@@ -174,12 +180,13 @@ qwqwq<br>121
  ![21212](http://huihut-img.oss-cn-shenzhen.aliyuncs.com/H_ya.png)
 
   <div  align="center">    
-  <img src="http://pic.shytime.com/1.png" width = "100" height = "100" alt="title" align=center />
+  <img src="http://pic.shytime.com/0.png" width = "100" height = "100" alt="title" align=center />
   </div>
 
 
 
-![1](http://pic.shytime.com/1.png)
+
+![1](http://pic.shytime.com/g)
 
 ![](xxx.png =100x100)
 
@@ -219,13 +226,13 @@ $/pm/$
 - 网址自动链接
 
   ```
-    <https://huihut.github.io/>
+    <https://shytime.github.io/>
   ```
 
 - 电子邮件自动链接
 
   ```
-    <huihut@outlook.com>
+    <qy@shytime.com>
   ```
 
 <div  align = 'center'>
@@ -239,3 +246,17 @@ $/pm/$
 
 
 [^1]: 这是脚注
+
+My profile:
+
+- name:qiyang
+
+- qq:111
+
+*12*     ***123***  **12**     ~~123~~   
+
+__12__  ___12___  
+
+- nihao
+  - 21
+
