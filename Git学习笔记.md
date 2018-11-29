@@ -1,4 +1,4 @@
-<center>Git学习笔记    </center>
+<center>Git学习笔记</center>
 
 ## 快捷键
 
@@ -88,6 +88,12 @@ list -a 查看隐藏目录
 
 vim git config 编辑配置文件
 
+git commit -am '' 同时add commit
+
+
+
+
+
 
 
 ## Git远程推送
@@ -108,7 +114,7 @@ git pull origin master 把远程仓库推到本地仓库
 
 
 
-注意事项：首先 git add 提交上暂存区
+**注意事项**：首先 git add 提交上暂存区
 
 再 git commit 提交上本地仓库
 
