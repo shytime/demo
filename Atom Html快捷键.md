@@ -256,13 +256,13 @@ tab 键，之前的缩写代码就会自动扩展为完整的html 代码片断�
 （1）缩写：a{Click me}
 
 ```html
-`<``a` `href``=``""``>Click me</``a``>`
+<a href="">Click me</a>
 ```
 
 （2）缩写：p>{Click }+a{here}+{ to continue}
 
 ```html
-`<``p``>Click <``a` `href``=``""``>here</``a``> to continue</``p``>`
+<p>Click <a href="">here</a> to continue</p>
 ```
 
 ### 10，隐式标签
@@ -270,25 +270,29 @@ tab 键，之前的缩写代码就会自动扩展为完整的html 代码片断�
 （1）缩写：.class
 
 ```html
-`<``div` `class``=``"class"``></``div``>`
+<div class="class"></div>
 ```
 
 （2）缩写：em>.class
 
 ```html
-`<``em``><``span` `class``=``"class"``></``span``></``em``>`
+<em><span class="class"></span></em>
 ```
 
 （3）缩写：ul>.class
 
 ```html
-`<``ul``>``    ``<``li` `class``=``"class"``></``li``>``</``ul``>`
+<ul>    <li class="class"></li></ul>
 ```
 
 （4）缩写：table>.row>.col
 
 ```html
-`<``table``>``    ``<``tr` `class``=``"row"``>``        ``<``td` `class``=``"col"``></``td``>``    ``</``tr``>``</``table``>`
+<table>
+    <tr class="row">
+        <td class="col"></td>
+    </tr>
+</table>
 ```
 
 
@@ -300,7 +304,7 @@ tab 键，之前的缩写代码就会自动扩展为完整的html 代码片断�
 缩写：hangge
 
 ```html
-`<``hangge``></``hangge``>`
+<hangge></hangge>
 ```
 
 
@@ -327,114 +331,164 @@ tab 键，之前的缩写代码就会自动扩展为完整的html 代码片断�
 （2）缩写：a
 
 ```html
-`<``a` `href``=``""``></``a``>`
+<a href=""></a>
 ```
 
 （3）缩写：a:link
 
 ```html
-`<``a` `href``=``"http://"``></``a``>`
+<a href="http://"></a>
 ```
 
 （4）缩写：a:mail
 
-
+```html
+<a href="mailto:"></a>
+```
 
 （5）缩写：abbr
 
-
+```html
+<abbr title=""></abbr>
+```
 
 （6）缩写：acronym
 
-
+```html
+<acronym title=""></acronym>
+```
 
 （7）缩写：base
 
-
+```html
+`<``base` `href``=``""` `/>`
+```
 
 （8）缩写：basefont
 
-
+```html
+<basefont />
+```
 
 （9）缩写：br
 
-
+```html
+<br />
+```
 
 （10）缩写：frame
 
-
+```html
+<frame />
+```
 
 （11）缩写：hr
 
-
+```html
+<hr />
+```
 
 （12）缩写：bdo
 
-
+```html
+<bdo dir=""></bdo>
+```
 
 （13）缩写：bdo:r
 
-
+```html
+<bdo dir="rtl"></bdo>
+```
 
 （14）缩写：bdo:l
 
-
+```html
+<bdo dir="ltr"></bdo>
+```
 
 （15）缩写：col
 
-
+```html
+<col />
+```
 
 （16）缩写：link
 
-
+```html
+<link rel="stylesheet" href="" />
+```
 
 （17）缩写：link:css
 
-
+```php+HTML
+<link rel="stylesheet" href="style.css" />
+```
 
 （18）缩写：link:print
 
-
+```html
+<link rel="stylesheet" href="print.css" media="print" />
+```
 
 （19）缩写：link:favicon
 
-
+```html
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+```
 
 （20）缩写：link:touch
 
-
+```html
+<link rel="apple-touch-icon" href="favicon.png" />
+```
 
 （21）缩写：link:rss
 
-
+```html
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml" />
+```
 
 （22）缩写：link:atom
 
-
+```HTML
+<link rel="alternate" type="application/atom+xml" title="Atom" href="atom.xml" />
+```
 
 （23）缩写：meta
 
-
+```html
+<meta />
+```
 
 （24）缩写：meta:utf
 
-
+```html
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+```
 
 （25）缩写：meta:win
 
-
+```html
+<meta http-equiv="Content-Type" content="text/html;charset=windows-1251" />
+```
 
 （26）缩写：meta:vp
 
-
+```html
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+```
 
 （27）缩写：meta:compat
 
-
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+```
 
 （28）缩写：style
 
-
+```html
+<style></style>
+```
 
 （29）缩写：script
 
@@ -718,15 +772,13 @@ tab 键，之前的缩写代码就会自动扩展为完整的html 代码片断�
 
 ​            别名：input:file
 
-```
-`<``input` `type``=``"file"` `name``=``""` `id``=``""` `/>`
+```html
+<input type="file" name="" id="" />
 ```
 
 （70）缩写：input:submit
 
-```
-`<``input` `type``=``"submit"` `value``=``""` `/>`
-```
+`<` `type`=``"submit" value``=`""` `/>`
 
 （71）缩写：input:s 
 
@@ -863,7 +915,7 @@ tab 键，之前的缩写代码就会自动扩展为完整的html 代码片断�
 别名：acronym
 
 ```
-`<``acronym` `title``=``""``></``acronym``>`
+
 ```
 
 （92）缩写：fig 
@@ -914,33 +966,49 @@ tab 键，之前的缩写代码就会自动扩展为完整的html 代码片断�
 
 ​            别名：colgroup
 
-
+```html
+<colgroup></colgroup>
+```
 
 （100）缩写：fst,fset
 
 别名：fieldset
 
-
+```html
+<fieldset></fieldset>
+```
 
 （101）缩写：btn
 
 别名：button
 
-
+```html
+<button></button>
+```
 
 （102）缩写：btn:b
 
 别名：button[type=button]
 
-
+```html
+<button type="button"></button>
+```
 
 （103）缩写：btn:r 
 
- 
+ 别名：button[type=reset]
+
+```html
+<button type="reset"></button>
+```
 
 （104）缩写：btn:s
 
 ​              别名：button[type=submit]
+
+```html
+<button type="submit"></button>
+```
 
 
 
